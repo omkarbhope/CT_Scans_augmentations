@@ -55,7 +55,7 @@ python main.py
 
 - **`file_handler.py`**: This script provides functionality to load and save NIfTI files, which is crucial for managing medical imaging data.
 - **`augmentation_pipeline.py`**: This script defines functions that apply various augmentations, such as rotation, flipping, zooming, and contrast adjustment to medical images.
-- **`process_nifty2.py`**: This script contains code for preprocessing the NIfTI files, including resizing, normalization, and label adjustments.
+- **`process_nifty2.py`**: This script contains code for preprocessing the individual NIfTI volumes, including resizing, normalization, and label adjustments finally create a visualization window displaying all the augmented slices with their corresponding labels.
 - **`split_data.py`**: This script splits the dataset into training, validation, and testing sets in a configurable ratio (default is 70/20/10).
 - **`augmentation_utils.py`**: Contains utility functions that assist with augmentations, ensuring reusability and consistency.
 
